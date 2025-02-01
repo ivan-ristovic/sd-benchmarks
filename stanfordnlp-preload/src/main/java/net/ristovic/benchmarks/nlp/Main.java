@@ -7,6 +7,15 @@ import edu.stanford.nlp.pipeline.*;
 import edu.stanford.nlp.semgraph.*;
 import edu.stanford.nlp.trees.*;
 
+import org.graalvm.nativeimage.ObjectSnapshots;
+import org.graalvm.nativeimage.ObjectSnapshots.ObjectSnapshot;
+import org.graalvm.nativeimage.ObjectSnapshots.ObjectSnapshotProvider;
+import org.graalvm.nativeimage.ObjectSnapshots.ObjectSnapshotRegion;
+import org.graalvm.nativeimage.ObjectSnapshots.ObjectSnapshotSlot;
+
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.util.*;
 
 public class Main {
@@ -18,12 +27,19 @@ public class Main {
         String text = TextProvider.getText();
         TextProvider.printStats(text);
 
-        CoreDocument document = annotate(text);
+        // Slow path
+        CoreDocument document = annotateSlowPath(text);
         runBasicExamples(document);
-        runAllExamples(document);
+
+        // Store result
+        Path snapshotPath = storeResult(document);
+
+        // Fast path
+        document = annotateFastPath(snapshotPath, text);
+        runBasicExamples(document);
     }
 
-    private static CoreDocument annotate(String text) {
+    private static CoreDocument annotateSlowPath(String text) {
         t.start();
 
             s.start();
@@ -53,6 +69,33 @@ public class Main {
 
         return document;
     }
+
+    private static Path storeResult(CoreDocument document) throws IOException {
+        System.gc();
+
+        t.start();
+            var provider = ObjectSnapshots.provider();
+            var slot = ObjectSnapshots.snapshotRegion().getSlot(0);
+            var snapshotPath = Files.createTempFile("ni-oss-", ".snapshot");
+            var s = provider.createObjectSnapshot(document, slot);
+            provider.store(slot, snapshotPath);
+            provider.unload(slot);
+        t.stop();
+        t.printElapsed("store::total");
+
+        return snapshotPath;
+    }
+
+    private static CoreDocument annotateFastPath(Path snapshotPath, String text) {
+        t.start();
+            var provider = ObjectSnapshots.provider();
+            var slot = ObjectSnapshots.snapshotRegion().getSlot(0);
+            var s = provider.load(snapshotPath, slot);
+        t.stop();
+        t.printElapsed("fast::total");
+
+        return (CoreDocument) s.get();
+    } 
 
     private static void runBasicExamples(CoreDocument document) {
         t.start();

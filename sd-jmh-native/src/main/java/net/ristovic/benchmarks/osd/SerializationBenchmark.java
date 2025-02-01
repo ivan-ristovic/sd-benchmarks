@@ -22,6 +22,8 @@ public class SerializationBenchmark {
     private static int iters;
 
     @Param({"java", "jackson-databind", "gson", "dsljson", "fastjson", "kryo", "kryo-ref"})
+    // @Param({"graalvm-oss"})
+    // @Param({"java", "jackson-databind", "gson", "dsljson", "fastjson", "kryo", "kryo-ref", "graalvm-oss"})
     private static String serTag;
 
     @Param({

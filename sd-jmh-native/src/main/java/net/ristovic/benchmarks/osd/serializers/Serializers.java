@@ -21,6 +21,8 @@ public class Serializers {
                 return new KryoSerializer();
             case "kryo-ref":
                 return new KryoSerializer(true);
+            case "graalvm-oss":
+                return new GraalvmOssSerializer();
             default:
                 throw new RuntimeException("unknown serializer");
         }

@@ -193,6 +193,8 @@ THE POSSIBILITY OF SUCH DAMAGE.
                             <imageName>${binary.name}</imageName>
                             <mainClass>${main.class}</mainClass>
                             <buildArgs>
+                                <buildArg>-H:+ObjectSnapshots</buildArg>
+                                <buildArg>-H:ObjectSnapshotHeapOffset=524288000</buildArg>
                                 <buildArg>--add-opens=java.base/java.util=ALL-UNNAMED</buildArg>
                                 <buildArg>--initialize-at-build-time=org.xml.sax.helpers.DefaultHandler</buildArg>
                                 <buildArg>--initialize-at-build-time=org.xml.sax.helpers.LocatorImpl</buildArg>
@@ -231,6 +233,8 @@ THE POSSIBILITY OF SUCH DAMAGE.
                             <imageName>${binary-name}</imageName>
                             <mainClass>${main.class}</mainClass>
                             <buildArgs>
+                                <buildArg>-H:+ObjectSnapshots</buildArg>
+                                <buildArg>-H:ObjectSnapshotHeapOffset=524288000</buildArg>
                                 <buildArg>--add-opens=java.base/java.util=ALL-UNNAMED</buildArg>
                                 <buildArg>--initialize-at-build-time=org.xml.sax.helpers.DefaultHandler</buildArg>
                                 <buildArg>--initialize-at-build-time=org.xml.sax.helpers.LocatorImpl</buildArg>
@@ -270,6 +274,8 @@ THE POSSIBILITY OF SUCH DAMAGE.
                             <imageName>${binary-name}</imageName>
                             <mainClass>${main.class}</mainClass>
                             <buildArgs>
+                                <buildArg>-H:+ObjectSnapshots</buildArg>
+                                <buildArg>-H:ObjectSnapshotHeapOffset=524288000</buildArg>
                                 <buildArg>--initialize-at-build-time=org.xml.sax.helpers.DefaultHandler</buildArg>
                                 <buildArg>--initialize-at-build-time=org.xml.sax.helpers.LocatorImpl</buildArg>
                                 <buildArg>--add-opens=java.base/java.util=ALL-UNNAMED</buildArg>
