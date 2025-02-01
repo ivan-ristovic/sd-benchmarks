@@ -1,0 +1,18 @@
+#!/bin/bash
+
+iters="${1:-100}"
+timeout="${2:-0.1s}"
+out="bench-startup-$(date +%s).txt"
+
+for i in $(seq 1 $iters) ; do
+    timeout "$timeout" ./run | tee -a "$out"
+done
+
+echo
+echo "$iters runs completed"
+echo
+
+cat "$out" \
+    | grep -o -E "Startup completed in [0-9]+ms" "$out" \
+    | grep -o -E '[0-9]+' \
+    | datamash -H mean 1 q1 1 median 1 q3 1 iqr 1 sstdev 1 jarque 1 min 1 max 1

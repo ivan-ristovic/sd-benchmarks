@@ -1,0 +1,639 @@
+[
+{
+  "name":"com.google.protobuf.ExtensionRegistry",
+  "methods":[{"name":"getEmptyRegistry","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.xml.bind.v2.ContextFactory",
+  "methods":[{"name":"createContext","parameterTypes":["java.lang.String","java.lang.ClassLoader","java.util.Map"] }]
+},
+{
+  "name":"com.sun.xml.bind.v2.model.nav.ReflectionNavigator",
+  "methods":[{"name":"getInstance","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.xml.bind.v2.runtime.property.ArrayElementLeafProperty",
+  "queryAllPublicConstructors":true
+},
+{
+  "name":"com.sun.xml.bind.v2.runtime.property.ArrayElementNodeProperty",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["com.sun.xml.bind.v2.runtime.JAXBContextImpl","com.sun.xml.bind.v2.model.runtime.RuntimeElementPropertyInfo"] }]
+},
+{
+  "name":"com.sun.xml.bind.v2.runtime.property.ArrayReferenceNodeProperty",
+  "queryAllPublicConstructors":true
+},
+{
+  "name":"com.sun.xml.bind.v2.runtime.property.SingleElementLeafProperty",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["com.sun.xml.bind.v2.runtime.JAXBContextImpl","com.sun.xml.bind.v2.model.runtime.RuntimeElementPropertyInfo"] }]
+},
+{
+  "name":"com.sun.xml.bind.v2.runtime.property.SingleElementNodeProperty",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["com.sun.xml.bind.v2.runtime.JAXBContextImpl","com.sun.xml.bind.v2.model.runtime.RuntimeElementPropertyInfo"] }]
+},
+{
+  "name":"com.sun.xml.bind.v2.runtime.property.SingleMapNodeProperty",
+  "queryAllPublicConstructors":true
+},
+{
+  "name":"com.sun.xml.bind.v2.runtime.property.SingleReferenceNodeProperty",
+  "queryAllPublicConstructors":true
+},
+{
+  "name":"de.jollyday.config.ChristianHoliday",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"de.jollyday.config.ChristianHolidayType",
+  "allDeclaredFields":true,
+  "fields":[{"name":"ASCENSION_DAY"}, {"name":"ASH_WEDNESDAY"}, {"name":"CARNIVAL"}, {"name":"CLEAN_MONDAY"}, {"name":"CORPUS_CHRISTI"}, {"name":"EASTER"}, {"name":"EASTER_MONDAY"}, {"name":"EASTER_SATURDAY"}, {"name":"EASTER_TUESDAY"}, {"name":"GENERAL_PRAYER_DAY"}, {"name":"GOOD_FRIDAY"}, {"name":"MARDI_GRAS"}, {"name":"MAUNDY_THURSDAY"}, {"name":"PENTECOST"}, {"name":"PENTECOST_MONDAY"}, {"name":"SACRED_HEART"}, {"name":"SHROVE_MONDAY"}, {"name":"WHIT_MONDAY"}, {"name":"WHIT_SUNDAY"}]
+},
+{
+  "name":"de.jollyday.config.ChronologyType",
+  "allDeclaredFields":true,
+  "fields":[{"name":"GREGORIAN"}, {"name":"JULIAN"}]
+},
+{
+  "name":"de.jollyday.config.Configuration",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"de.jollyday.config.EthiopianOrthodoxHoliday",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"de.jollyday.config.EthiopianOrthodoxHolidayType",
+  "allDeclaredFields":true,
+  "fields":[{"name":"ENKUTATASH"}, {"name":"MESKEL"}, {"name":"TIMKAT"}]
+},
+{
+  "name":"de.jollyday.config.Fixed",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"de.jollyday.config.FixedWeekdayBetweenFixed",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"de.jollyday.config.FixedWeekdayInMonth",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"de.jollyday.config.FixedWeekdayRelativeToFixed",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"de.jollyday.config.HebrewHoliday",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"de.jollyday.config.HinduHoliday",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"de.jollyday.config.HinduHolidayType",
+  "allDeclaredFields":true,
+  "fields":[{"name":"HOLI"}]
+},
+{
+  "name":"de.jollyday.config.Holiday",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getChronology","parameterTypes":[] }, {"name":"getDate","parameterTypes":[] }, {"name":"getDay","parameterTypes":[] }, {"name":"getDays","parameterTypes":[] }, {"name":"getFixedWeekday","parameterTypes":[] }, {"name":"getFrom","parameterTypes":[] }, {"name":"getMonth","parameterTypes":[] }, {"name":"getTo","parameterTypes":[] }, {"name":"getType","parameterTypes":[] }, {"name":"getWeekday","parameterTypes":[] }, {"name":"getWhen","parameterTypes":[] }, {"name":"getWhich","parameterTypes":[] }]
+},
+{
+  "name":"de.jollyday.config.HolidayType",
+  "allDeclaredFields":true,
+  "fields":[{"name":"OFFICIAL_HOLIDAY"}, {"name":"UNOFFICIAL_HOLIDAY"}]
+},
+{
+  "name":"de.jollyday.config.Holidays",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getChristianHoliday","parameterTypes":[] }, {"name":"getEthiopianOrthodoxHoliday","parameterTypes":[] }, {"name":"getFixed","parameterTypes":[] }, {"name":"getFixedWeekday","parameterTypes":[] }, {"name":"getFixedWeekdayBetweenFixed","parameterTypes":[] }, {"name":"getFixedWeekdayRelativeToFixed","parameterTypes":[] }, {"name":"getHebrewHoliday","parameterTypes":[] }, {"name":"getHinduHoliday","parameterTypes":[] }, {"name":"getIslamicHoliday","parameterTypes":[] }, {"name":"getRelativeToEasterSunday","parameterTypes":[] }, {"name":"getRelativeToFixed","parameterTypes":[] }, {"name":"getRelativeToWeekdayInMonth","parameterTypes":[] }]
+},
+{
+  "name":"de.jollyday.config.IslamicHoliday",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"de.jollyday.config.IslamicHolidayType",
+  "allDeclaredFields":true,
+  "fields":[{"name":"ASCHURA"}, {"name":"ID_AL_FITR"}, {"name":"ID_UL_ADHA"}, {"name":"LAILAT_AL_BARAT"}, {"name":"LAILAT_AL_MIRAJ"}, {"name":"LAILAT_AL_QADR"}, {"name":"MAWLID_AN_NABI"}, {"name":"NEWYEAR"}, {"name":"RAMADAN"}]
+},
+{
+  "name":"de.jollyday.config.Month",
+  "allDeclaredFields":true,
+  "fields":[{"name":"APRIL"}, {"name":"AUGUST"}, {"name":"DECEMBER"}, {"name":"FEBRUARY"}, {"name":"JANUARY"}, {"name":"JULY"}, {"name":"JUNE"}, {"name":"MARCH"}, {"name":"MAY"}, {"name":"NOVEMBER"}, {"name":"OCTOBER"}, {"name":"SEPTEMBER"}]
+},
+{
+  "name":"de.jollyday.config.MoveableHoliday",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getChronology","parameterTypes":[] }, {"name":"getDay","parameterTypes":[] }, {"name":"getMonth","parameterTypes":[] }, {"name":"getType","parameterTypes":[] }]
+},
+{
+  "name":"de.jollyday.config.MovingCondition",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"de.jollyday.config.ObjectFactory",
+  "queryAllDeclaredMethods":true,
+  "fields":[{"name":"_useJAXBProperties"}]
+},
+{
+  "name":"de.jollyday.config.RelativeToEasterSunday",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"de.jollyday.config.RelativeToFixed",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"de.jollyday.config.RelativeToWeekdayInMonth",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"de.jollyday.config.Weekday",
+  "allDeclaredFields":true,
+  "fields":[{"name":"FRIDAY"}, {"name":"MONDAY"}, {"name":"SATURDAY"}, {"name":"SUNDAY"}, {"name":"THURSDAY"}, {"name":"TUESDAY"}, {"name":"WEDNESDAY"}]
+},
+{
+  "name":"de.jollyday.config.When",
+  "allDeclaredFields":true,
+  "fields":[{"name":"AFTER"}, {"name":"BEFORE"}]
+},
+{
+  "name":"de.jollyday.config.Which",
+  "allDeclaredFields":true,
+  "fields":[{"name":"FIRST"}, {"name":"FOURTH"}, {"name":"LAST"}, {"name":"SECOND"}, {"name":"THIRD"}]
+},
+{
+  "name":"de.jollyday.config.With",
+  "allDeclaredFields":true,
+  "fields":[{"name":"NEXT"}, {"name":"PREVIOUS"}]
+},
+{
+  "name":"de.jollyday.datasource.impl.XmlFileDataSource",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"edu.stanford.nlp.ie.KBPTokensregexExtractor$Object"
+},
+{
+  "name":"edu.stanford.nlp.ie.KBPTokensregexExtractor$Subject"
+},
+{
+  "name":"edu.stanford.nlp.ie.NERFeatureFactory",
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"edu.stanford.nlp.ling.CoreAnnotations$LemmaAnnotation"
+},
+{
+  "name":"edu.stanford.nlp.ling.CoreAnnotations$NamedEntityTagAnnotation"
+},
+{
+  "name":"edu.stanford.nlp.ling.CoreAnnotations$NumerizedTokensAnnotation"
+},
+{
+  "name":"edu.stanford.nlp.ling.CoreAnnotations$PartOfSpeechAnnotation"
+},
+{
+  "name":"edu.stanford.nlp.ling.CoreAnnotations$TokensAnnotation"
+},
+{
+  "name":"edu.stanford.nlp.ling.tokensregex.Env",
+  "fields":[{"name":"defaultTokensAnnotationKey"}, {"name":"defaults"}]
+},
+{
+  "name":"edu.stanford.nlp.ling.tokensregex.MatchedExpression",
+  "fields":[{"name":"value"}]
+},
+{
+  "name":"edu.stanford.nlp.parser.lexparser.AfrikaansTreebankParserParams"
+},
+{
+  "name":"edu.stanford.nlp.parser.lexparser.AncientGreekTreebankParserParams"
+},
+{
+  "name":"edu.stanford.nlp.parser.lexparser.ArmenianTreebankParserParams"
+},
+{
+  "name":"edu.stanford.nlp.parser.lexparser.BasqueTreebankParserParams"
+},
+{
+  "name":"edu.stanford.nlp.parser.lexparser.BretonTreebankParserParams"
+},
+{
+  "name":"edu.stanford.nlp.parser.lexparser.BulgarianTreebankParserParams"
+},
+{
+  "name":"edu.stanford.nlp.parser.lexparser.BuryatTreebankParserParams"
+},
+{
+  "name":"edu.stanford.nlp.parser.lexparser.CatalanTreebankParserParams"
+},
+{
+  "name":"edu.stanford.nlp.parser.lexparser.CroatianTreebankParserParams"
+},
+{
+  "name":"edu.stanford.nlp.parser.lexparser.CzechTreebankParserParams"
+},
+{
+  "name":"edu.stanford.nlp.parser.lexparser.DanishTreebankParserParams"
+},
+{
+  "name":"edu.stanford.nlp.parser.lexparser.DutchTreebankParserParams"
+},
+{
+  "name":"edu.stanford.nlp.parser.lexparser.EstonianTreebankParserParams"
+},
+{
+  "name":"edu.stanford.nlp.parser.lexparser.FaroeseTreebankParserParams"
+},
+{
+  "name":"edu.stanford.nlp.parser.lexparser.FinnishTreebankParserParams"
+},
+{
+  "name":"edu.stanford.nlp.parser.lexparser.GalicianTreebankParserParams"
+},
+{
+  "name":"edu.stanford.nlp.parser.lexparser.GothicTreebankParserParams"
+},
+{
+  "name":"edu.stanford.nlp.parser.lexparser.GreekTreebankParserParams"
+},
+{
+  "name":"edu.stanford.nlp.parser.lexparser.HindiTreebankParserParams"
+},
+{
+  "name":"edu.stanford.nlp.parser.lexparser.IndonesianTreebankParserParams"
+},
+{
+  "name":"edu.stanford.nlp.parser.lexparser.IrishTreebankParserParams"
+},
+{
+  "name":"edu.stanford.nlp.parser.lexparser.JapaneseTreebankParserParams"
+},
+{
+  "name":"edu.stanford.nlp.parser.lexparser.KazakhTreebankParserParams"
+},
+{
+  "name":"edu.stanford.nlp.parser.lexparser.KoreanTreebankParserParams"
+},
+{
+  "name":"edu.stanford.nlp.parser.lexparser.KurmanjiTreebankParserParams"
+},
+{
+  "name":"edu.stanford.nlp.parser.lexparser.LatinTreebankParserParams"
+},
+{
+  "name":"edu.stanford.nlp.parser.lexparser.LatvianTreebankParserParams"
+},
+{
+  "name":"edu.stanford.nlp.parser.lexparser.NaijaTreebankParserParams"
+},
+{
+  "name":"edu.stanford.nlp.parser.lexparser.NorthSamiTreebankParserParams"
+},
+{
+  "name":"edu.stanford.nlp.parser.lexparser.NorwegianTreebankParserParams"
+},
+{
+  "name":"edu.stanford.nlp.parser.lexparser.OldChurchSlavonicTreebankParserParams"
+},
+{
+  "name":"edu.stanford.nlp.parser.lexparser.OldFrenchTreebankParserParams"
+},
+{
+  "name":"edu.stanford.nlp.parser.lexparser.PersianTreebankParserParams"
+},
+{
+  "name":"edu.stanford.nlp.parser.lexparser.PolishTreebankParserParams"
+},
+{
+  "name":"edu.stanford.nlp.parser.lexparser.PortugueseTreebankParserParams"
+},
+{
+  "name":"edu.stanford.nlp.parser.lexparser.RomanianTreebankParserParams"
+},
+{
+  "name":"edu.stanford.nlp.parser.lexparser.RussianTreebankParserParams"
+},
+{
+  "name":"edu.stanford.nlp.parser.lexparser.SerbianTreebankParserParams"
+},
+{
+  "name":"edu.stanford.nlp.parser.lexparser.SlovakTreebankParserParams"
+},
+{
+  "name":"edu.stanford.nlp.parser.lexparser.SlovenianTreebankParserParams"
+},
+{
+  "name":"edu.stanford.nlp.parser.lexparser.SwedishTreebankParserParams"
+},
+{
+  "name":"edu.stanford.nlp.parser.lexparser.ThaiTreebankParserParams"
+},
+{
+  "name":"edu.stanford.nlp.parser.lexparser.TurkishTreebankParserParams"
+},
+{
+  "name":"edu.stanford.nlp.parser.lexparser.UkrainianTreebankParserParams"
+},
+{
+  "name":"edu.stanford.nlp.parser.lexparser.UpperSorbianTreebankParserParams"
+},
+{
+  "name":"edu.stanford.nlp.parser.lexparser.UrduTreebankParserParams"
+},
+{
+  "name":"edu.stanford.nlp.parser.lexparser.UyghurTreebankParserParams"
+},
+{
+  "name":"edu.stanford.nlp.parser.lexparser.VietnameseTreebankParserParams"
+},
+{
+  "name":"edu.stanford.nlp.pipeline.KBPAnnotator",
+  "allDeclaredFields":true
+},
+{
+  "name":"edu.stanford.nlp.process.AmericanizeFunction",
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"edu.stanford.nlp.process.CoreLabelTokenFactory",
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"edu.stanford.nlp.time.JollyDayHolidays",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"edu.stanford.nlp.time.JollyDayHolidays$MyXMLManager",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"edu.stanford.nlp.time.Options",
+  "fields":[{"name":"markTimeRanges"}]
+},
+{
+  "name":"edu.stanford.nlp.time.SUTime$DurationWithFields",
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"edu.stanford.nlp.time.SUTime$ExplicitTemporalSet"
+},
+{
+  "name":"edu.stanford.nlp.time.SUTime$InexactDuration"
+},
+{
+  "name":"edu.stanford.nlp.time.SUTime$InexactTime",
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["edu.stanford.nlp.time.SUTime$Range"] }, {"name":"<init>","parameterTypes":["edu.stanford.nlp.time.SUTime$Time","edu.stanford.nlp.time.SUTime$Duration","edu.stanford.nlp.time.SUTime$Range"] }, {"name":"<init>","parameterTypes":["edu.stanford.nlp.time.SUTime$Time","edu.stanford.nlp.time.SUTime$Range"] }]
+},
+{
+  "name":"edu.stanford.nlp.time.SUTime$IsoDate",
+  "queryAllDeclaredConstructors":true,
+  "queryAllPublicConstructors":true,
+  "fields":[{"name":"month"}],
+  "methods":[{"name":"<init>","parameterTypes":["int","int","int"] }, {"name":"<init>","parameterTypes":["java.lang.Number","java.lang.Number","java.lang.Number"] }, {"name":"<init>","parameterTypes":["java.lang.Number","java.lang.Number","java.lang.Number","java.lang.Number","java.lang.Boolean"] }]
+},
+{
+  "name":"edu.stanford.nlp.time.SUTime$IsoTime",
+  "queryAllDeclaredConstructors":true,
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["int","int","int"] }, {"name":"<init>","parameterTypes":["java.lang.Number","java.lang.Number","java.lang.Number","java.lang.Number","java.lang.Number"] }, {"name":"<init>","parameterTypes":["java.lang.String","java.lang.String","java.lang.String"] }]
+},
+{
+  "name":"edu.stanford.nlp.time.SUTime$OrdinalTime"
+},
+{
+  "name":"edu.stanford.nlp.time.SUTime$PeriodicTemporalSet",
+  "queryAllDeclaredConstructors":true,
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["edu.stanford.nlp.time.SUTime$Temporal","edu.stanford.nlp.time.SUTime$Duration","java.lang.String","java.lang.String"] }]
+},
+{
+  "name":"edu.stanford.nlp.time.SUTime$Range",
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["edu.stanford.nlp.time.SUTime$Time","edu.stanford.nlp.time.SUTime$Duration"] }, {"name":"<init>","parameterTypes":["edu.stanford.nlp.time.SUTime$Time","edu.stanford.nlp.time.SUTime$Time"] }, {"name":"<init>","parameterTypes":["edu.stanford.nlp.time.SUTime$Time","edu.stanford.nlp.time.SUTime$Time","edu.stanford.nlp.time.SUTime$Duration"] }]
+},
+{
+  "name":"edu.stanford.nlp.time.SUTime$RefTime",
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"edu.stanford.nlp.time.SUTime$RelativeTime",
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["edu.stanford.nlp.time.SUTime$Duration"] }, {"name":"<init>","parameterTypes":["edu.stanford.nlp.time.SUTime$TemporalOp","edu.stanford.nlp.time.SUTime$Temporal"] }]
+},
+{
+  "name":"edu.stanford.nlp.time.SUTime$SimpleTime"
+},
+{
+  "name":"edu.stanford.nlp.time.SUTime$StandardTemporalType",
+  "methods":[{"name":"create","parameterTypes":["edu.stanford.nlp.ling.tokensregex.types.Expressions$CompositeValue"] }]
+},
+{
+  "name":"edu.stanford.nlp.time.SUTime$StandardTemporalType$1"
+},
+{
+  "name":"edu.stanford.nlp.time.SUTime$StandardTemporalType$2"
+},
+{
+  "name":"edu.stanford.nlp.time.SUTime$StandardTemporalType$4"
+},
+{
+  "name":"edu.stanford.nlp.time.SUTime$StandardTemporalType$8"
+},
+{
+  "name":"edu.stanford.nlp.time.SUTime$TimeWithRange",
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["edu.stanford.nlp.time.SUTime$Range"] }]
+},
+{
+  "name":"edu.stanford.nlp.time.TimeExpression"
+},
+{
+  "name":"edu.stanford.nlp.time.TimeExpressionExtractorImpl",
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","java.util.Properties"] }]
+},
+{
+  "name":"edu.stanford.nlp.util.ArgumentParser$Option",
+  "methods":[{"name":"alt","parameterTypes":[] }, {"name":"name","parameterTypes":[] }, {"name":"required","parameterTypes":[] }]
+},
+{
+  "name":"edu.stanford.nlp.util.logging.SLF4JHandler",
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.Integer",
+  "fields":[{"name":"TYPE"}]
+},
+{
+  "name":"java.lang.Object",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"getChronology","parameterTypes":[] }, {"name":"getDate","parameterTypes":[] }, {"name":"getDay","parameterTypes":[] }, {"name":"getDays","parameterTypes":[] }, {"name":"getDescription","parameterTypes":[] }, {"name":"getDescriptionPropertiesKey","parameterTypes":[] }, {"name":"getEvery","parameterTypes":[] }, {"name":"getFixedWeekday","parameterTypes":[] }, {"name":"getFrom","parameterTypes":[] }, {"name":"getHierarchy","parameterTypes":[] }, {"name":"getHolidays","parameterTypes":[] }, {"name":"getLocalizedType","parameterTypes":[] }, {"name":"getMonth","parameterTypes":[] }, {"name":"getSubstitute","parameterTypes":[] }, {"name":"getTo","parameterTypes":[] }, {"name":"getType","parameterTypes":[] }, {"name":"getValidFrom","parameterTypes":[] }, {"name":"getValidTo","parameterTypes":[] }, {"name":"getWeekday","parameterTypes":[] }, {"name":"getWhen","parameterTypes":[] }, {"name":"getWhich","parameterTypes":[] }, {"name":"getWith","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.Thread",
+  "fields":[{"name":"threadLocalRandomProbe"}]
+},
+{
+  "name":"java.lang.annotation.Annotation",
+  "methods":[{"name":"annotationType","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.annotation.Inherited"
+},
+{
+  "name":"java.lang.annotation.Retention",
+  "methods":[{"name":"value","parameterTypes":[] }]
+},
+{
+  "name":"java.security.AccessController"
+},
+{
+  "name":"java.text.DateFormatSymbols",
+  "methods":[{"name":"getInstance","parameterTypes":["java.util.Locale"] }]
+},
+{
+  "name":"java.util.ArrayList",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"java.util.HashMap",
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"<init>","parameterTypes":["int"] }, {"name":"<init>","parameterTypes":["java.util.Map"] }]
+},
+{
+  "name":"java.util.HashSet",
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"<init>","parameterTypes":["int"] }, {"name":"<init>","parameterTypes":["java.util.Collection"] }]
+},
+{
+  "name":"java.util.concurrent.atomic.AtomicBoolean",
+  "fields":[{"name":"value"}]
+},
+{
+  "name":"java.util.concurrent.atomic.AtomicReference",
+  "fields":[{"name":"value"}]
+},
+{
+  "name":"java.util.concurrent.atomic.Striped64",
+  "fields":[{"name":"base"}, {"name":"cellsBusy"}]
+},
+{
+  "name":"javax.xml.bind.annotation.XmlAccessorType",
+  "methods":[{"name":"value","parameterTypes":[] }]
+},
+{
+  "name":"javax.xml.bind.annotation.XmlAttribute",
+  "methods":[{"name":"name","parameterTypes":[] }, {"name":"namespace","parameterTypes":[] }, {"name":"required","parameterTypes":[] }]
+},
+{
+  "name":"javax.xml.bind.annotation.XmlElement",
+  "methods":[{"name":"defaultValue","parameterTypes":[] }, {"name":"name","parameterTypes":[] }, {"name":"namespace","parameterTypes":[] }, {"name":"nillable","parameterTypes":[] }, {"name":"required","parameterTypes":[] }, {"name":"type","parameterTypes":[] }]
+},
+{
+  "name":"javax.xml.bind.annotation.XmlElementDecl",
+  "methods":[{"name":"defaultValue","parameterTypes":[] }, {"name":"name","parameterTypes":[] }, {"name":"namespace","parameterTypes":[] }, {"name":"scope","parameterTypes":[] }, {"name":"substitutionHeadName","parameterTypes":[] }]
+},
+{
+  "name":"javax.xml.bind.annotation.XmlEnum",
+  "methods":[{"name":"value","parameterTypes":[] }]
+},
+{
+  "name":"javax.xml.bind.annotation.XmlRegistry"
+},
+{
+  "name":"javax.xml.bind.annotation.XmlSchema",
+  "methods":[{"name":"attributeFormDefault","parameterTypes":[] }, {"name":"elementFormDefault","parameterTypes":[] }, {"name":"namespace","parameterTypes":[] }, {"name":"xmlns","parameterTypes":[] }]
+},
+{
+  "name":"javax.xml.bind.annotation.XmlSeeAlso",
+  "methods":[{"name":"value","parameterTypes":[] }]
+},
+{
+  "name":"javax.xml.bind.annotation.XmlType",
+  "methods":[{"name":"factoryClass","parameterTypes":[] }, {"name":"factoryMethod","parameterTypes":[] }, {"name":"name","parameterTypes":[] }, {"name":"namespace","parameterTypes":[] }, {"name":"propOrder","parameterTypes":[] }]
+},
+{
+  "name":"jdk.internal.ValueBased"
+},
+{
+  "name":"org.apache.xerces.impl.dv.ObjectFactory"
+},
+{
+  "name":"org.apache.xerces.impl.dv.dtd.DTDDVFactoryImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.xerces.parsers.ObjectFactory"
+},
+{
+  "name":"org.apache.xerces.parsers.XIncludeAwareParserConfiguration",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.xml.serializer.ObjectFactory"
+},
+{
+  "name":"org.apache.xml.serializer.OutputPropertiesFactory"
+},
+{
+  "name":"org.apache.xml.serializer.SerializerBase"
+},
+{
+  "name":"org.apache.xml.serializer.ToXMLStream",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.slf4j.LoggerFactory",
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.SHA",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+}
+]

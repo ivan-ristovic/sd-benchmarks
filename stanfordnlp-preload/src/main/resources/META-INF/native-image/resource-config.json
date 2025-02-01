@@ -1,0 +1,1308 @@
+{
+  "resources":{
+  "includes":[{
+    "pattern":"\\QMETA-INF/services/java.lang.System$LoggerFinder\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/java.net.spi.InetAddressResolverProvider\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/java.time.zone.ZoneRulesProvider\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/java.util.spi.ResourceBundleControlProvider\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/javax.xml.bind.JAXBContextFactory\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/javax.xml.bind.JAXBContext\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/javax.xml.parsers.DocumentBuilderFactory\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/javax.xml.parsers.SAXParserFactory\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/javax.xml.transform.TransformerFactory\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org.apache.xerces.xni.parser.XMLParserConfiguration\\E"
+  }, {
+    "pattern":"\\Qde/jollyday/config/jaxb.index\\E"
+  }, {
+    "pattern":"\\Qde/jollyday/config/jaxb.properties\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/coref/neural/english-embeddings.ser.gz\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/coref/neural/english-model-default.ser.gz\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/dcoref/animate.unigrams.txt\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/dcoref/countries\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/dcoref/demonyms.txt\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/dcoref/gender.data.gz\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/dcoref/inanimate.unigrams.txt\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/dcoref/state-abbreviations.txt\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/dcoref/statesandprovinces\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/gazetteers/regexner_cased.tab\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/gazetteers/regexner_caseless.tab\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/gpe_births_in_city.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/gpe_births_in_country.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/gpe_births_in_stateorprovince.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/gpe_deaths_in_city.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/gpe_deaths_in_country.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/gpe_deaths_in_stateorprovince.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/gpe_employees_or_members.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/gpe_headquarters_in_city.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/gpe_headquarters_in_country.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/gpe_headquarters_in_stateorprovince.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/gpe_holds_shares_in.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/gpe_member_of.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/gpe_organizations_founded.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/gpe_residents_of_city.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/gpe_residents_of_country.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/gpe_residents_of_stateorprovince.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/gpe_subsidiaries.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/org_LOCATION_of_headquarters.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/org_alternate_names.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/org_city_of_headquarters.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/org_country_of_headquarters.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/org_dissolved.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/org_employees_or_members.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/org_founded.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/org_founded_by.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/org_holds_shares_in.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/org_member_of.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/org_members.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/org_number_of_employeesSLASHmembers.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/org_organizations_founded.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/org_parents.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/org_politicalSLASHreligious_affiliation.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/org_shareholders.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/org_stateorprovince_of_headquarters.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/org_students.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/org_subsidiaries.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/org_top_membersSLASHemployees.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/org_website.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/per_LOCATION_of_birth.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/per_LOCATION_of_death.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/per_LOCATION_of_residence.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/per_age.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/per_alternate_names.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/per_cause_of_death.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/per_charges.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/per_children.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/per_cities_of_residence.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/per_city_of_birth.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/per_city_of_death.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/per_countries_of_residence.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/per_country_of_birth.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/per_country_of_death.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/per_date_of_birth.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/per_date_of_death.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/per_employee_of.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/per_holds_shares_in.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/per_member_of.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/per_organizations_founded.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/per_origin.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/per_other_family.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/per_parents.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/per_religion.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/per_schools_attended.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/per_siblings.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/per_spouse.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/per_stateorprovince_of_birth.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/per_stateorprovince_of_death.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/per_stateorprovinces_of_residence.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/per_title.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/semgrex/per_top_member_employee_of.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tac-re-lr.ser.gz\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/defs.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/gpe_births_in_city.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/gpe_births_in_country.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/gpe_births_in_stateorprovince.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/gpe_deaths_in_city.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/gpe_deaths_in_country.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/gpe_deaths_in_stateorprovince.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/gpe_employees_or_members.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/gpe_headquarters_in_city.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/gpe_headquarters_in_country.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/gpe_headquarters_in_stateorprovince.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/gpe_holds_shares_in.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/gpe_member_of.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/gpe_organizations_founded.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/gpe_residents_of_city.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/gpe_residents_of_country.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/gpe_residents_of_stateorprovince.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/gpe_subsidiaries.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/org_LOCATION_of_headquarters.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/org_alternate_names.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/org_city_of_headquarters.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/org_country_of_headquarters.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/org_dissolved.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/org_employees_or_members.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/org_founded.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/org_founded_by.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/org_holds_shares_in.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/org_member_of.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/org_members.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/org_number_of_employeesSLASHmembers.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/org_organizations_founded.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/org_parents.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/org_politicalSLASHreligious_affiliation.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/org_shareholders.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/org_stateorprovince_of_headquarters.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/org_students.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/org_subsidiaries.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/org_top_membersSLASHemployees.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/org_website.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/per_LOCATION_of_birth.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/per_LOCATION_of_death.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/per_LOCATION_of_residence.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/per_age.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/per_alternate_names.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/per_cause_of_death.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/per_charges.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/per_children.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/per_cities_of_residence.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/per_city_of_birth.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/per_city_of_death.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/per_countries_of_residence.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/per_country_of_birth.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/per_country_of_death.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/per_date_of_birth.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/per_date_of_death.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/per_employee_of.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/per_holds_shares_in.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/per_member_of.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/per_organizations_founded.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/per_origin.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/per_other_family.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/per_parents.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/per_religion.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/per_schools_attended.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/per_siblings.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/per_spouse.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/per_stateorprovince_of_birth.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/per_stateorprovince_of_death.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/per_stateorprovinces_of_residence.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/per_title.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/kbp/english/tokensregex/per_top_member_employee_of.rules\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/lexparser/englishPCFG.ser.gz\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/ner/english.all.3class.distsim.crf.ser.gz\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/ner/english.conll.4class.distsim.crf.ser.gz\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/ner/english.muc.7class.distsim.crf.ser.gz\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/parser/nndep/english_UD.gz\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/quoteattribution/animate.unigrams.txt\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/quoteattribution/family_words.txt\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/quoteattribution/gender_filtered.txt\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/quoteattribution/quoteattribution_model.ser\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/sutime/defs.sutime.txt\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/sutime/english.holidays.sutime.txt\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/sutime/english.sutime.txt\\E"
+  }, {
+    "pattern":"\\Qedu/stanford/nlp/models/sutime/jollyday/Holidays_sutime.xml\\E"
+  }, {
+    "pattern":"\\Qjollyday.properties\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xml/serializer/Encodings.properties\\E"
+  }, {
+    "pattern":"\\Qorg/apache/xml/serializer/output_xml.properties\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Africa/Abidjan\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Africa/Accra\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Africa/Addis_Ababa\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Africa/Algiers\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Africa/Asmara\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Africa/Bamako\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Africa/Bangui\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Africa/Banjul\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Africa/Bissau\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Africa/Blantyre\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Africa/Brazzaville\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Africa/Bujumbura\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Africa/Cairo\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Africa/Casablanca\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Africa/Ceuta\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Africa/Conakry\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Africa/Dakar\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Africa/Dar_es_Salaam\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Africa/Djibouti\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Africa/Douala\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Africa/El_Aaiun\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Africa/Freetown\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Africa/Gaborone\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Africa/Harare\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Africa/Johannesburg\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Africa/Juba\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Africa/Kampala\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Africa/Khartoum\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Africa/Kigali\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Africa/Kinshasa\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Africa/Lagos\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Africa/Libreville\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Africa/Lome\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Africa/Luanda\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Africa/Lubumbashi\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Africa/Lusaka\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Africa/Malabo\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Africa/Maputo\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Africa/Maseru\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Africa/Mbabane\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Africa/Mogadishu\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Africa/Monrovia\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Africa/Nairobi\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Africa/Ndjamena\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Africa/Niamey\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Africa/Nouakchott\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Africa/Ouagadougou\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Africa/Porto-Novo\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Africa/Sao_Tome\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Africa/Tripoli\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Africa/Tunis\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Africa/Windhoek\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Adak\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Anchorage\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Anguilla\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Antigua\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Araguaina\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Argentina/Buenos_Aires\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Argentina/Catamarca\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Argentina/Cordoba\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Argentina/Jujuy\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Argentina/La_Rioja\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Argentina/Mendoza\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Argentina/Rio_Gallegos\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Argentina/Salta\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Argentina/San_Juan\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Argentina/San_Luis\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Argentina/Tucuman\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Argentina/Ushuaia\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Aruba\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Asuncion\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Atikokan\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Bahia\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Bahia_Banderas\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Barbados\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Belem\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Belize\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Blanc-Sablon\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Boa_Vista\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Bogota\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Boise\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Cambridge_Bay\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Campo_Grande\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Cancun\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Caracas\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Cayenne\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Cayman\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Chicago\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Chihuahua\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Costa_Rica\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Creston\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Cuiaba\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Curacao\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Danmarkshavn\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Dawson\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Dawson_Creek\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Denver\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Detroit\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Dominica\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Edmonton\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Eirunepe\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/El_Salvador\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Fort_Nelson\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Fortaleza\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Glace_Bay\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Godthab\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Goose_Bay\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Grand_Turk\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Grenada\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Guadeloupe\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Guatemala\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Guayaquil\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Guyana\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Halifax\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Havana\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Hermosillo\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Indiana/Indianapolis\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Indiana/Knox\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Indiana/Marengo\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Indiana/Petersburg\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Indiana/Tell_City\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Indiana/Vevay\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Indiana/Vincennes\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Indiana/Winamac\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Inuvik\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Iqaluit\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Jamaica\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Juneau\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Kentucky/Louisville\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Kentucky/Monticello\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Kralendijk\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/La_Paz\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Lima\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Los_Angeles\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Lower_Princes\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Maceio\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Managua\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Manaus\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Marigot\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Martinique\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Matamoros\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Mazatlan\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Menominee\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Merida\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Metlakatla\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Mexico_City\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Miquelon\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Moncton\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Monterrey\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Montevideo\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Montserrat\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Nassau\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/New_York\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Nipigon\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Nome\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Noronha\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/North_Dakota/Beulah\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/North_Dakota/Center\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/North_Dakota/New_Salem\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Ojinaga\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Panama\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Pangnirtung\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Paramaribo\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Phoenix\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Port-au-Prince\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Port_of_Spain\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Porto_Velho\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Puerto_Rico\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Punta_Arenas\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Rainy_River\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Rankin_Inlet\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Recife\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Regina\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Resolute\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Rio_Branco\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Santarem\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Santiago\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Santo_Domingo\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Sao_Paulo\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Scoresbysund\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Sitka\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/St_Barthelemy\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/St_Johns\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/St_Kitts\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/St_Lucia\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/St_Thomas\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/St_Vincent\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Swift_Current\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Tegucigalpa\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Thule\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Thunder_Bay\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Tijuana\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Toronto\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Tortola\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Vancouver\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Whitehorse\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Winnipeg\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Yakutat\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/America/Yellowknife\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Antarctica/Casey\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Antarctica/Davis\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Antarctica/DumontDUrville\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Antarctica/Macquarie\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Antarctica/Mawson\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Antarctica/McMurdo\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Antarctica/Palmer\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Antarctica/Rothera\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Antarctica/Syowa\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Antarctica/Troll\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Antarctica/Vostok\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Arctic/Longyearbyen\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Aden\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Almaty\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Amman\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Anadyr\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Aqtau\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Aqtobe\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Ashgabat\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Atyrau\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Baghdad\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Bahrain\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Baku\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Bangkok\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Barnaul\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Beirut\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Bishkek\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Brunei\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Chita\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Choibalsan\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Colombo\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Damascus\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Dhaka\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Dili\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Dubai\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Dushanbe\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Famagusta\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Gaza\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Hebron\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Ho_Chi_Minh\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Hong_Kong\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Hovd\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Irkutsk\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Istanbul\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Jakarta\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Jayapura\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Jerusalem\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Kabul\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Kamchatka\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Karachi\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Kathmandu\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Khandyga\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Kolkata\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Krasnoyarsk\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Kuala_Lumpur\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Kuching\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Kuwait\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Macau\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Magadan\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Makassar\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Manila\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Muscat\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Nicosia\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Novokuznetsk\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Novosibirsk\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Omsk\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Oral\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Phnom_Penh\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Pontianak\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Pyongyang\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Qatar\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Qostanay\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Qyzylorda\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Riyadh\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Sakhalin\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Samarkand\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Seoul\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Shanghai\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Singapore\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Srednekolymsk\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Taipei\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Tashkent\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Tbilisi\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Tehran\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Thimphu\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Tokyo\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Tomsk\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Ulaanbaatar\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Urumqi\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Ust-Nera\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Vientiane\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Vladivostok\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Yakutsk\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Yangon\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Yekaterinburg\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Asia/Yerevan\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Atlantic/Azores\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Atlantic/Bermuda\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Atlantic/Canary\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Atlantic/Cape_Verde\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Atlantic/Faroe\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Atlantic/Madeira\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Atlantic/Reykjavik\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Atlantic/South_Georgia\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Atlantic/St_Helena\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Atlantic/Stanley\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Australia/Adelaide\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Australia/Brisbane\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Australia/Broken_Hill\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Australia/Currie\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Australia/Darwin\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Australia/Eucla\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Australia/Hobart\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Australia/Lindeman\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Australia/Lord_Howe\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Australia/Melbourne\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Australia/Perth\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Australia/Sydney\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/CET\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/CST6CDT\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/EET\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/EST5EDT\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/EST\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Etc/GMT+10\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Etc/GMT+11\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Etc/GMT+12\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Etc/GMT+1\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Etc/GMT+2\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Etc/GMT+3\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Etc/GMT+4\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Etc/GMT+5\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Etc/GMT+6\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Etc/GMT+7\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Etc/GMT+8\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Etc/GMT+9\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Etc/GMT-10\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Etc/GMT-11\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Etc/GMT-12\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Etc/GMT-13\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Etc/GMT-14\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Etc/GMT-1\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Etc/GMT-2\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Etc/GMT-3\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Etc/GMT-4\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Etc/GMT-5\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Etc/GMT-6\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Etc/GMT-7\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Etc/GMT-8\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Etc/GMT-9\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Etc/GMT\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Etc/UTC\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Amsterdam\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Andorra\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Astrakhan\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Athens\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Belgrade\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Berlin\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Bratislava\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Brussels\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Bucharest\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Budapest\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Busingen\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Chisinau\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Copenhagen\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Dublin\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Gibraltar\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Guernsey\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Helsinki\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Isle_of_Man\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Istanbul\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Jersey\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Kaliningrad\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Kiev\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Kirov\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Lisbon\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Ljubljana\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/London\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Luxembourg\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Madrid\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Malta\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Mariehamn\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Minsk\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Monaco\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Moscow\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Nicosia\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Oslo\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Paris\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Podgorica\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Prague\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Riga\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Rome\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Samara\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/San_Marino\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Sarajevo\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Saratov\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Simferopol\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Skopje\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Sofia\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Stockholm\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Tallinn\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Tirane\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Ulyanovsk\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Uzhgorod\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Vaduz\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Vatican\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Vienna\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Vilnius\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Volgograd\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Warsaw\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Zagreb\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Zaporozhye\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Europe/Zurich\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/HST\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Indian/Antananarivo\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Indian/Chagos\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Indian/Christmas\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Indian/Cocos\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Indian/Comoro\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Indian/Kerguelen\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Indian/Mahe\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Indian/Maldives\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Indian/Mauritius\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Indian/Mayotte\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Indian/Reunion\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/MET\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/MST7MDT\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/MST\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/PST8PDT\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Pacific/Apia\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Pacific/Auckland\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Pacific/Bougainville\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Pacific/Chatham\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Pacific/Chuuk\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Pacific/Easter\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Pacific/Efate\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Pacific/Enderbury\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Pacific/Fakaofo\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Pacific/Fiji\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Pacific/Funafuti\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Pacific/Galapagos\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Pacific/Gambier\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Pacific/Guadalcanal\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Pacific/Guam\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Pacific/Honolulu\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Pacific/Kiritimati\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Pacific/Kosrae\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Pacific/Kwajalein\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Pacific/Majuro\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Pacific/Marquesas\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Pacific/Midway\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Pacific/Nauru\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Pacific/Niue\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Pacific/Norfolk\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Pacific/Noumea\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Pacific/Pago_Pago\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Pacific/Palau\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Pacific/Pitcairn\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Pacific/Pohnpei\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Pacific/Port_Moresby\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Pacific/Rarotonga\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Pacific/Saipan\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Pacific/Tahiti\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Pacific/Tarawa\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Pacific/Tongatapu\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Pacific/Wake\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/Pacific/Wallis\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/WET\\E"
+  }, {
+    "pattern":"\\Qorg/joda/time/tz/data/ZoneInfoMap\\E"
+  }, {
+    "pattern":"\\Qorg/slf4j/impl/StaticLoggerBinder.class\\E"
+  }]},
+  "bundles":[{
+    "name":"org.apache.xml.serializer.XMLEntities",
+    "locales":[""]
+  }]
+}

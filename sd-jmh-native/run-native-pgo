@@ -1,0 +1,12 @@
+#!/bin/bash
+
+set -e;
+
+bin=./target/benchmarks-opt
+
+if [ ! -f "$bin" ]; then
+    ./build-native-pgo
+fi
+
+"$bin" $@
+

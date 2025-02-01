@@ -1,0 +1,12 @@
+#!/bin/bash
+
+set -e;
+
+bin="./build/native/nativeCompile/mn-cache-isolate"
+
+if [ ! -f "$bin" ]; then
+    ./compile
+    cp -r ./data ./build/native/nativeCompile/
+fi
+
+"$bin" $*

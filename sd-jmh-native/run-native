@@ -1,0 +1,12 @@
+#!/bin/bash
+
+set -e;
+
+bin=./target/benchmarks
+
+if [ ! -f "$bin" ]; then
+    ./build-native
+fi
+
+"$bin" $@
+

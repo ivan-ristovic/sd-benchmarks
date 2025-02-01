@@ -1,0 +1,17 @@
+#!/bin/bash
+
+iters="${1:-10}"
+timeout="${2:-5s}"
+out="bench-latency-$(date +%s).txt"
+
+./run >/dev/null &
+echo "Server started in background"
+
+sleep 1
+
+for i in {1..12}; do
+    hyperfine -i -N -r "$iters" "timeout $timeout curl --silent http://localhost:8080/$i"
+done
+
+killall mn-cache-isolate
+

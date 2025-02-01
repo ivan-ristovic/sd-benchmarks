@@ -1,0 +1,10 @@
+[
+{
+  "name":"java.lang.Boolean",
+  "methods":[{"name":"getBoolean","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"sun.launcher.LauncherHelper",
+  "fields":[{"name":"isStaticMain"}, {"name":"noArgMain"}]
+}
+]

@@ -1,0 +1,30 @@
+#!/bin/bash
+
+isolates="${1:-16}"
+timeout="${2:-5s}"
+load_cache="${3:-y}"
+
+./run --isolates "$isolates" &
+echo "Server started in background"
+
+sleep 2
+
+if [ $load_cache == "y" ]; then
+    for i in $(seq 0 $((isolates-1))) ; do
+        port=$((8080+i))
+        echo
+        echo "Sending requests to server listening on port $port..."
+        for j in {1..12}; do
+            timeout $timeout curl --silent http://localhost:$port/$j > /dev/null
+        done
+    done
+fi
+
+echo
+echo
+echo '==================================='
+cat /proc/$(pidof mn-cache-isolate)/status
+echo '==================================='
+
+killall mn-cache-isolate
+
