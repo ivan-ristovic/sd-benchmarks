@@ -4,7 +4,7 @@ isolates="${1:-16}"
 timeout="${2:-5s}"
 load_cache="${3:-y}"
 
-./run --isolates "$isolates" &
+./run-native --isolates "$isolates" &
 echo "Server started in background"
 
 sleep 2

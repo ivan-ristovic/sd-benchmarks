@@ -4,7 +4,7 @@ iters="${1:-10}"
 timeout="${2:-5s}"
 out="bench-latency-$(date +%s).txt"
 
-./run >/dev/null &
+./run-native >/dev/null &
 echo "Server started in background"
 
 sleep 1
