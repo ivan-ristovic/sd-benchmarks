@@ -1,3 +1,7 @@
+# PGO profiles
+*.iprof
+pgo-profiles/
+
 # Benchmark results
 bench-*.txt
 

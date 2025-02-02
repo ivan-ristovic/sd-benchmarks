@@ -5,7 +5,7 @@ set -e;
 bin="./build/native/nativeCompile/mn-cache-isolate"
 
 if [ ! -f "$bin" ]; then
-    ./build-native
+    ./build-native-pgo
     cp -r ./data ./build/native/nativeCompile/
 fi
 
