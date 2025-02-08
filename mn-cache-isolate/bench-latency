@@ -1,17 +1,37 @@
 #!/bin/bash
 
-iters="${1:-10}"
+iters="${1:-100}"
 timeout="${2:-5s}"
-out="bench-latency-$(date +%s).txt"
+out="bench-latency-$(date +%s)"
 
 ./run-native >/dev/null &
 echo "Server started in background"
 
 sleep 1
 
-for i in {1..12}; do
-    hyperfine -i -N -r "$iters" "timeout $timeout curl --silent http://localhost:8080/$i"
-done
+mkdir -p "$out"
 
+function bench ()
+{
+    s=$1
+    n=$2
+    t=$3
+    shift 3
+    for i in {1..12}; do
+        hyperfine -i -N $@  --export-json="$out/$s-$i.json" -r "$n" "timeout $t curl --silent http://localhost:8080/$i"
+    done
+}
+
+echo
+echo
+echo " === warmup latency === "
+
+bench "startup" 1 "$timeout"
+
+echo
+echo
+echo " === latency === "
+
+bench "actual" "$iters" "$timeout" -w "$iters"
 killall mn-cache-isolate
 

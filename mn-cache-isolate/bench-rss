@@ -6,8 +6,16 @@ load_cache="${3:-y}"
 
 ./run-native --isolates "$isolates" &
 echo "Server started in background"
+pid=$(pidof mn-cache-isolate)
 
 sleep 2
+
+echo
+echo
+echo '==================================='
+cat /proc/$pid/status
+echo '==================================='
+echo "Measured RSS via ps: $( ps -q "$pid" -o rss= )"
 
 if [ $load_cache == "y" ]; then
     for i in $(seq 0 $((isolates-1))) ; do
@@ -23,8 +31,9 @@ fi
 echo
 echo
 echo '==================================='
-cat /proc/$(pidof mn-cache-isolate)/status
+cat /proc/$pid/status
 echo '==================================='
+echo "Measured RSS via ps: $( ps -q "$pid" -o rss= )"
 
 killall mn-cache-isolate
 

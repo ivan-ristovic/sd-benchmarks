@@ -4,6 +4,7 @@ pgo-profiles/
 
 # Benchmark results
 bench-*.txt
+bench-*/
 
 ### Java
 # Compiled class file
