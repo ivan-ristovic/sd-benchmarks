@@ -72,6 +72,10 @@ graalvmNative {
         main {
             imageName.set('mn-cache-isolate') 
             buildArgs.add('--verbose') 
+            buildArgs.add('--gc=epsilon') 
+            buildArgs.add('-g') 
+            buildArgs.add('-H:+ObjectSnapshots') 
+            buildArgs.add('-H:ObjectSnapshotHeapOffset=52428800') 
         }
     }
 }
